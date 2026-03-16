@@ -1,24 +1,5 @@
+### 7 formas válidas de declarar classes em kotlin:
 ```kotlin
-fun main() {
-    var pessoaA1 = PessoaA() // var permite a reatribuição do objeto
-    val pessoaA2 = PessoaA() // val não permite a reatribuição
-    pessoaA1 = pessoaA2 // funciona
-    // pessoaA2 = pessoaA1 // val cannot be reassigned
-    val pessoaB = PessoaB()
-    val pessoaC = PessoaC()
-    pessoaC.saudacao()
-    val pessoaD = PessoaD()
-    pessoaD.nome = "Lucas"
-    println(pessoaD.nome)
-    // pessoaD.dataNascimento = "2020-01-01" // val cannot be reassigned.
-    val pessoaE = PessoaE("José", "2000-01-01") // passagem de parâmetro ao construtor
-    val pessoaF = PessoaF("José", "2000-01-01")
-    val pessoaG = PessoaG("José", "2000-01-01")
-    pessoaG.endereco = "Rua B, n.2"
-    pessoaG.saudacao()
-}
-
-// 7 formas válidas de declarar classes em kotlin:
 // Uma classe sem atributos ou funções, declarada sem chaves
 class PessoaA
 
@@ -61,6 +42,27 @@ class PessoaG(var nome:String, val dataNascimento:String){
     fun saudacao() {
         println("Olá!")
     }
+}
+```
+### Exemplos de como instanciar as classes no `Main`
+```kotlin
+fun main() {
+    var pessoaA1 = PessoaA() // var permite a reatribuição do objeto
+    val pessoaA2 = PessoaA() // val não permite a reatribuição
+    pessoaA1 = pessoaA2 // funciona
+    // pessoaA2 = pessoaA1 // val cannot be reassigned
+    val pessoaB = PessoaB()
+    val pessoaC = PessoaC()
+    pessoaC.saudacao()
+    val pessoaD = PessoaD()
+    pessoaD.nome = "Lucas"
+    println(pessoaD.nome)
+    // pessoaD.dataNascimento = "2020-01-01" // val cannot be reassigned.
+    val pessoaE = PessoaE("José", "2000-01-01") // passagem de parâmetro ao construtor
+    val pessoaF = PessoaF("José", "2000-01-01")
+    val pessoaG = PessoaG("José", "2000-01-01")
+    pessoaG.endereco = "Rua B, n.2"
+    pessoaG.saudacao()
 }
 ```
 Link para o [kotlin](https://pl.kotl.in/8GflFFd8U)
