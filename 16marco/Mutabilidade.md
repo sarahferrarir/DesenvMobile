@@ -69,4 +69,4 @@ Passa nos dois testes.
 - `var`: agora a lista é ("x", "y", "z"). 
 
 ---
-Link para o kotlin: https://pl.kotl.in/UxqJ0gk-B
+Link para o [kotlin](https://pl.kotl.in/UxqJ0gk-B)
