@@ -288,3 +288,5 @@ Essa introdução cobre alguns dos conceitos fundamentais da linguagem Kotlin:
 - Manipulação básica de strings
 
 Esses conceitos formam a base para desenvolver programas mais complexos em Kotlin, especialmente em aplicações Android, backend e sistemas que rodam na JVM.
+
+Link para o [kotlin](https://pl.kotl.in/vpsZru6BX?theme=darcula)
