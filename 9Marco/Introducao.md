@@ -105,9 +105,9 @@ Aqui estamos incrementando a idade em 1.
 
 Uma característica importante do Kotlin é a inferência de tipos. Quando escrevemos:
 
-Kotlin
-
-`var idade = 21`
+```Kotlin
+var idade = 21
+```
 
 O compilador automaticamente entende que o tipo é `Int`. Portanto, não é necessário declarar o tipo explicitamente na maioria dos casos.
 
@@ -117,17 +117,17 @@ O compilador automaticamente entende que o tipo é `Int`. Portanto, não é nece
 
 Também é possível declarar o tipo manualmente.
 
-Kotlin
-
-`var idadeMinima: Int`
+```Kotlin
+var idadeMinima: Int
+```
 
 A sintaxe é: `nomeDaVariavel : Tipo`
 
 Equivalente em Java:
 
-Java
-
-`int idadeMinima;`
+```Java
+int idadeMinima;
+```
 
 ---
 
@@ -137,15 +137,15 @@ Kotlin possui a função `println()`. Ela imprime um valor no console e automati
 
 Exemplo:
 
-Kotlin
-
-`println(kotlin)`
+```Kotlin
+println(kotlin)
+```
 
 Também é possível usar o método do Java:
 
-Java
-
-`System.out.println(nome + " " + sobrenome)`
+```Java
+System.out.println(nome + " " + sobrenome)
+```
 
 Mas em Kotlin normalmente utilizamos `println`.
 
@@ -157,9 +157,9 @@ Concatenação significa juntar strings.
 
 Forma tradicional:
 
-Kotlin
-
-`println(nome + " " + sobrenome)`
+```Kotlin
+println(nome + " " + sobrenome)
+```
 
 Essa mesma forma também é utilizada em Java.
 
@@ -169,15 +169,15 @@ Essa mesma forma também é utilizada em Java.
 
 Kotlin possui um recurso mais moderno chamado interpolação de strings.
 
-Kotlin
-
-`println("$nome $sobrenome")`
+```Kotlin
+println("$nome $sobrenome")
+```
 
 O símbolo `$` permite inserir diretamente o valor da variável dentro da string. Quando queremos usar expressões, usamos `${}`:
 
-Kotlin
-
-`println("${nome.length}")`
+```Kotlin
+println("${nome.length}")
+```
 
 ---
 
@@ -185,19 +185,20 @@ Kotlin
 
 Kotlin possui dois tipos principais de comentários.
 
-- **Comentário de linha única:**Kotlin
+- **Comentário de linha única:**
+```Kotlin
+    // este é um comentário
+```
     
-    `// este é um comentário`
-    
-- **Comentário de múltiplas linhas:**Kotlin
-    
-    `/*
+- **Comentário de múltiplas linhas:**
+```Kotlin
+    /*
     comentário
     em várias
     linhas
-    */`
-    
-    Esse tipo é útil para explicações maiores.
+    */
+```
+Esse tipo é útil para explicações maiores.
     
 
 ---
@@ -225,16 +226,16 @@ Cada tipo numérico possui constantes que representam seus limites.
 
 Exemplo:
 
-Kotlin
-
-`Byte.MIN_VALUE
-Byte.MAX_VALUE`
+```Kotlin
+Byte.MIN_VALUE
+Byte.MAX_VALUE
+```
 
 No código usamos:
 
-Kotlin
-
-`println("Byte: valor mínimo ${Byte.MIN_VALUE} | valor máximo: ${Byte.MAX_VALUE}")`
+```Kotlin
+println("Byte: valor mínimo ${Byte.MIN_VALUE} | valor máximo: ${Byte.MAX_VALUE}")
+```
 
 ---
 
@@ -242,14 +243,15 @@ Kotlin
 
 Podemos descobrir o tipo de uma variável durante a execução.
 
-- **Usando interoperabilidade com Java:**Kotlin
+- **Usando interoperabilidade com Java:**
+```Kotlin  
+    println(idade.javaClass)
+```
     
-    `println(idade.javaClass)`
-    
-- **Usando reflexão do Kotlin:**Kotlin
-    
-    `println(idade::class)`
-    
+- **Usando reflexão do Kotlin:**
+```Kotlin
+    println(idade::class)
+```
 
 ---
 
@@ -257,15 +259,15 @@ Podemos descobrir o tipo de uma variável durante a execução.
 
 Strings possuem várias propriedades úteis. Uma delas é `length`, que retorna o tamanho da string.
 
-Kotlin
-
-`println(nome.length)`
+```Kotlin
+println(nome.length)
+```
 
 Também podemos aplicar diretamente em expressões:
 
-Kotlin
-
-`println("$nome $sobrenome".length)`
+```Kotlin
+println("$nome $sobrenome".length)
+```
 
 ---
 
