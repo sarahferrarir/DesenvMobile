@@ -10,7 +10,7 @@ IBMEC 2026.1
 
 **Avaliação continuada (AC): 20%**    
 
-**AP1, AP2 e AS: **  
+**AP1, AP2 e AS:**  
 
 Frequência >= 75%  
 
