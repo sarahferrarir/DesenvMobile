@@ -13,6 +13,8 @@ IBMEC 2026.1
 
 **Avaliação continuada (AC): 20%**    
 
-**P1, AP2 e AS: **  
+**AP1, AP2 e AS: **  
 
 Frequência >= 75%  
+
+[dontpad](https://dontpad.com/devmobile20261)
