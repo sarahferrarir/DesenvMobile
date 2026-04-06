@@ -92,14 +92,14 @@ O Gradle gerencia as dependências e a compilação do seu app.
 
 ---
 
-### 7. Erros Comuns
-* **R vermelho:** Vá em *Build > Clean Project*. Resolve metade dos problemas fantasmas do Android Studio.
-
----
-
-### 8. Lógica de Interação (Kotlin)
+### 7. Lógica de Interação (Kotlin)
 
 - **Pegar referência:** `val componente = findViewById<Tipo>(R.id.id_no_xml)`
 - **Clique de botão:** `botao.setOnClickListener { // ação aqui }`
 - **Ler/Escrever texto:** > * Ler: `val texto = campo.text.toString()`
     - Escrever: `campo.text = "Novo Texto"`
+
+---
+
+### 8. Erros Comuns
+* **R vermelho:** Vá em *Build > Clean Project*. Resolve metade dos problemas fantasmas do Android Studio.
