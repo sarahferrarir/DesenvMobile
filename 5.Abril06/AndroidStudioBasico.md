@@ -1,15 +1,18 @@
 ## Android Studio: Cheat Sheet Essencial
 
 ### 1. Atalhos de Teclado 
-* **Busca em tudo:** `Shift` + `Shift`
-  > Use quando esquecer onde está um arquivo ou uma configuração. Digite "MainActivity" ou "Logcat" para ir direto.
-* **Sugestões/Correções rápidas:** `Alt` + `Enter`
-  > O "salvador". Se o código estiver vermelho (erro), pare o cursor em cima e use este atalho. Ele sugere importar bibliotecas ou criar métodos que faltam.
-* **Formatar código:** `Ctrl` + `Alt` + `L`
-  > Use sempre antes de salvar. Ele organiza a indentação do XML e do Kotlin automaticamente.
-* **Compilar e Rodar:** `Shift` + `F10`
-* **Localizar no arquivo:** `Ctrl` + `F`
-* **Comentar linha/bloco:** `Ctrl` + `/`
+| **Função** | **Windows** | **macOS** | 
+| --- | --- | --- | 
+| **Busca em tudo** | `Shift` + `Shift` | `Shift` + `Shift` | 
+| **Sugestões/Correções** | `Alt` + `Enter` | **`Option` + `Return`** | 
+| **Formatar código** | `Ctrl` + `Alt` + `L` | **`Cmd` + `Option` + `L`** | 
+| **Compilar e Rodar** | `Shift` + `F10` | **`Control` + `R`** | 
+| **Localizar** | `Ctrl` + `F` | **`Cmd` + `F`** | 
+| **Comentar linha** | `Ctrl` + `/` | **`Cmd` + `/`** | 
+
+* **Busca em tudo:** Use quando esquecer onde está um arquivo ou uma configuração. Digite "MainActivity" ou "Logcat" para ir direto.
+* **Sugestões/Correções rápidas:** O "salvador". Se o código estiver vermelho (erro), pare o cursor em cima e use este atalho. Ele sugere importar bibliotecas ou criar métodos que faltam.
+* **Formatar código:** Use sempre antes de salvar. Ele organiza a indentação do XML e do Kotlin automaticamente.
 
 ---
 
